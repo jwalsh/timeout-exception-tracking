@@ -1,0 +1,33 @@
+{
+  "name": "@jwalsh/timeout-exception-tracking",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "./node_moduels/.bin/babel index.js -d dist",
+    "bundle": "./node_modules/.bin/webpack index.js dist/index.js",
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwalsh/timeout-exception-tracking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwalsh/timeout-exception-tracking/issues"
+  },
+  "homepage": "https://github.com/jwalsh/timeout-exception-tracking#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2"
+  }
+}
